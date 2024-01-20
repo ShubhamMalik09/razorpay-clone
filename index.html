@@ -12,6 +12,21 @@
             padding-top: 12rem;
             padding-bottom: 10rem;
         }
+        .ctaIMG{
+            background-size: 100% 100%;
+        }
+
+        .companiesList{
+            animation: 15s infinite linear moveImage ;
+        }
+        @keyframes moveImage {
+            0%{
+                top:0%;
+            }
+            100%{
+                top: -100%;
+            }
+        }
     </style>
     
 </head>
@@ -492,6 +507,224 @@
     </section>
 
 
+    <section class="bg-[#f5f8fe] relative pt-60 pb-12 -mt-[150px] -z-[10]">
+        <div class="flex relative w-8/12 max-w-[65%] mx-auto">
+            <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
+                <h3 class="font-mullish font-bold text-2xl text-deepBlueHead">Join the 50,00,000+ businesses using Razorpay</h3>
+                <div class="w-6 h-1 bg-greenLight my-3 mb-6"></div>
+                <p class="font-mullish opacity-80">We make it easier for you to focus on building great projects while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payments experience for your customers.</p>
+                <p class="font-mullish mt-6 opacity-80">Focus on your business while we handle the complexities of payments for you.</p>
+            </div>
+            <div class="h-[500px] w-[500px] relative overflow-y-hidden">
+                <div style="background: linear-gradient(180deg, #f4f8ff,#fff0)" class="absolute w-full h-[150px] top-0 z-10"></div>
+                <!-- <marquee behavior="scroll" direction="Up" class="w-full h-full">
+                    <img src="Images/comanies.png"
+                class="h-auto object-cover">
+                </marquee> -->
+                <img src="Images/comanies.png"
+                class="absolute h-auto object-cover companiesList">
+                <div style="background: linear-gradient(0deg, #f4f8ff,#fff0)" class="absolute w-full h-[150px] bottom-0 z-10"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="relative">
+        <div class="w-10/12 max-w-[80%] mx-auto relative py-20">
+            <img src="Images/feature-section1-dottedrows.png" alt="" class="absolute w-[200px] top-[8rem] left-[2rem] -z-10">
+            <h2 class="font-mullish font-bold text-2xl text-deepBlueHead text-center">An Experience <br>People Love to Talk About</h2>
+            <div class="w-6 h-1 bg-greenLight mx-auto my-4"></div>
+            
+            <button class="absolute rounded-full w-[80px] h-[80px] left-0 top-1/2 flex justify-center items-center bg-[#f4f8ff]">
+                <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center mix-blend-multiply">
+                    <i data-feather="chevron-left"
+                    class="stroke-[5px] w-6 h-6 md:h-10 text-gray-400"></i>
+                </div>
+            </button>
+
+            <button class="absolute rounded-full w-[80px] h-[80px] right-0 top-1/2 flex justify-center items-center bg-[#f4f8ff]">
+                <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center mix-blend-multiply">
+                    <i data-feather="chevron-right"
+                    class="stroke-[5px] w-6 h-6 md:h-10 text-gray-400"></i>
+                </div>
+            </button>
+
+            <div class="flex max-w-[65%] items-center mx-auto py-20 space-x-[4rem]">
+                <img src="Images/testimonial.jpg" alt="" width="320px" height="320px" class="rounded-xl">
+                <div class="max-w-[400px]">
+                    <img src="Images/quotes.svg" alt="" width="35px" height="40px" class="mb-2">
+                    <p class="font-mullish text-3xl font-bold opacity-50">Readymade Closed Wallet Solution For Quick Refunds</p>
+                    <a href="" class="text-grayText italic underline">Learn More</a>
+                    <h3 class="font-mullish font-extrabold text-2xl">Lorem Ipsum</h3>
+                    <p class="font-mullish font-medium">CEO, XYZ Engineering Company</p>
+                    <img src="Images/fake-company-logo.png" alt="" width="80px" height="40px">
+                </div>
+            </div>
+
+            <div class="flex space-x-2 mx-auto justify-center">
+                <div class="h-[10px] w-[10px] bg-gray-400 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-lightBlue300 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-gray-400 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-gray-400 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-gray-400 rounded-full"></div>
+                <div class="h-[10px] w-[10px] bg-gray-400 rounded-full"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-[url(Images/CTABg.svg)]  w-full h-full relative bg-right bg-cover ctIMG min-h-[520px] overflow-hidden">
+        <div class="w-8/12 max-w-[65%] flex items-center justify-between mx-auto space-x-20 pt-16">
+            <div class="font-mullish w-[60%] mt-16  space-y-4">
+                <h2 class="text-white text-2xl font-bold">Supercharge your business with Razorpay</h2>
+                <div class="w-6 h-1 bg-greenLight my-4"></div>
+                <p class="text-white mb">Sign up now to experience the future of payments and offer <br> your customers the best checkout experience</p>
+                <ul class="flex gap-1 space-y-2 text-white font-mullish flex-wrap items-baseline">
+                    <li class="space-x-1">
+                        <i data-feather="check" class="text-greenLight inline"></i>
+                        <span>Quick onboarding</span>
+                    </li>
+                    <li class="space-x-1">
+                        <i data-feather="check" class="text-greenLight inline"></i>
+                        <span>Access to entire product suite</span>
+                    </li>
+                    <li class="space-x-1">
+                        <i data-feather="check" class="text-greenLight inline"></i>
+                        <span>API access</span>
+                    </li>
+                    <li class="space-x-1">
+                        <i data-feather="check" class="text-greenLight inline"></i>
+                        <span>24x7 support</span>
+                    </li>
+                </ul>
+                <button class="min-w-[32px] flex gap-1 font-mullish text-sm font-bold bg-white text-lightBlue300 borrder rounded-md items-center hover:text-lightBlue transition-all duration-200 py-3 px-4">
+                    Sign Up
+                    <svg class="h-6 w-6"  width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/>  <line x1="5" y1="12" x2="19" y2="12" />  <line x1="13" y1="18" x2="19" y2="12" />  <line x1="13" y1="6" x2="19" y2="12" /></svg>
+                </button>
+            </div>
+            <img src="Images/ctaImg.svg" width="240px" height="282px">
+        </div>
+    </section>
+
+    <section >
+        <div class="flex w-8/12 max-w-[65%] mx-auto gap-2">
+            <div class="w-[30%] mr-28 font-mullish space-y-2">
+                <img src="Images/logo-dark.svg" alt="" width="125px" height="30px">
+                <p class="text-sm font-extralight opacity-65 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quaerat debitis quod placeat iusto adipisci? Temporibus consequuntur assumenda, sunt explicabo delectus quod est et incidunt eos, odio veritatis. Inventore, quos.</p>
+                <p class="text-sm font-extralight opacity-65 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium officiis, facilis atque repellat enim itaque dignissimos alias eligendi laudantium eius consequuntur quo odio modi, consectetur dolores reprehenderit, rerum culpa voluptatum!</p>
+                <p class="text-sm font-extralight opacity-65 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam doloremque doloribus hic adipisci veritatis. Quae corrupti eos amet, rem tempora commodi vel cupiditate saepe sit?</p>
+                <p class="text-[0.70rem] font-extralight opacity-65 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nostrum temporibus sint quod animi, enim ullam expedita corrupti ducimus consequatur dignissimos aperiam doloremque at officiis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit adipisci expedita odit earum tempora! Perspiciatis inventore.</p>
+                <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                <div class="bg-white border flex gap-4 w-full py-1 px-3 mb-2 border-gray-400">
+                    <span>Your email address</span>
+                    <span class="flex">Subscribe
+                    <svg class="h-6 w-6"  width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/>  <line x1="5" y1="12" x2="19" y2="12" />  <line x1="13" y1="18" x2="19" y2="12" />  <line x1="13" y1="6" x2="19" y2="12" /></svg>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <h3>BANKING PLUS</h3>
+                <p>RazorpayX</p>
+                <p>Current Accounts</p>
+                <p>Payouts</p>
+                <p>Paymout Links</p>
+                <p>Corporate Credit Card</p>
+                <p>View Live Demo <span>New</span></p>
+
+                <h3>LENDING</h3>
+                <p>Razorpay Capital</p>
+                <p>Instant Settlements</p>
+                <p>Working Capital Loans</p>
+                <p>Marketplace Instant Settlements</p>
+
+                <h3>RISK & FRAUD</h3>
+                <p>Thirdwatch</p>
+                <p>PrePay CoD <span>New</span></p>
+
+                <h3>BECOME A PARTNER</h3>
+                <p>Refer and Earn</p>
+                <p>Onboarding APIs</p>
+
+                <h3>MORE</h3>
+                <p>Rote</p>
+                <p>Invoices</p>
+                <p>Freelancer Payments</p>
+                <p>International</p>
+                <p>Flash </p>
+                <p>UPI</p>
+                <p>ePOS</p>
+                <p>Checkout Demo</p>
+                <p>RazorpayX Payroll</p>
+            </div>
+            <div>
+                <h3>BANKING PLUS</h3>
+                <p>RazorpayX</p>
+                <p>Current Accounts</p>
+                <p>Payouts</p>
+                <p>Paymout Links</p>
+                <p>Corporate Credit Card</p>
+                <p>View Live Demo</p>
+
+                <h3>LENDING</h3>
+                <p>Razorpay Capital</p>
+                <p>Instant Settlements</p>
+                <p>Working Capital Loans</p>
+
+                <h3>RISK & FRAUD</h3>
+                <p>Thirdwatch</p>
+                <p>Thirdwatch</p>
+                <p>Thirdwatch</p>
+                <p>Thirdwatch</p>
+                <p>Thirdwatch</p>
+
+                <h3>BECOME A PARTNER</h3>
+                <p>Refer and Earn</p>
+                <p>Onboarding APIs</p>
+                <p>Thirdwatch</p>
+                <p>Thirdwatch</p>
+
+                <h3>MORE</h3>
+                <p>Rote</p>
+                <p>Invoices</p>
+                <p>Freelancer Payments</p>
+                <p>PrePay CoD <span>New</span></p>
+            </div>
+            <div>
+                <h3>BANKING PLUS</h3>
+                <p>RazorpayX</p>
+                <p>Current Accounts</p>
+                <p>Payouts</p>
+                <p>Paymout Links</p>
+                <p>Corporate Credit Card</p>
+                <p>View Live Demo</p>
+
+                <h3>LENDING</h3>
+                <p>Razorpay Capital</p>
+                <p>Instant Settlements</p>
+                <p>Working Capital Loans</p>
+
+                <h3>RISK & FRAUD</h3>
+                <p>Thirdwatch</p>
+                <p>Thirdwatch</p>
+                <p>Thirdwatch</p>
+                <p>Thirdwatch</p>
+                <p>Thirdwatch</p>
+
+                <h3>BECOME A PARTNER</h3>
+                <p>Refer and Earn</p>
+                <p>Onboarding APIs</p>
+                <p>Thirdwatch</p>
+                <p>Thirdwatch</p>
+
+                <h3>MORE</h3>
+                <p>Rote</p>
+                <p>Invoices</p>
+                <p>Freelancer Payments</p>
+                <p>PrePay CoD <span>New</span></p>
+            </div>
+        </div>
+    </section>
     <script>
         feather.replace();
     </script>
